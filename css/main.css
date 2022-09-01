@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.body {
+    font-family: 'montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#borgertLogo {
+    max-width: 30vh;
+    max-height: 30vh;
+}
+
+#menu {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+.button {
+    background-color: red;
+}
+
+.nav-item{
+    font-size: 24px;
+}
+
+.carousel-inner{
+    max-height: 50rem;
+}
+
+.carousel-item {
+	-webkit-animation: kenburns-top 20s linear 1s infinite alternate both;
+	        animation: kenburns-top 20s linear 1s infinite alternate both;
+}
+
+
+ @-webkit-keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  @keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+
+
+
+
+  #elementoIzq:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+  }
+  
+  #elementoCtr:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+  }
+  
+  #elementoDer:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+@media(max-width: 1920px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:768px) {
+    #intro, #equipo {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
